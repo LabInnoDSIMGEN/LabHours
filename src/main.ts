@@ -21,7 +21,6 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("welcomePopup","Bienvenue dans le Lab Inno",[]);
     })
 
-
     WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
     WA.room.onLeaveLayer('welcomeZone').subscribe(closePopUp)
 
