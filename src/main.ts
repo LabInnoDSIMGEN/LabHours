@@ -42,7 +42,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('indicationMeetingRoom').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardMeetingRoom","Salle de réunion privée",[]);
+        currentPopup = WA.ui.openPopup("boardMeetingRoom","Salle d'atelier",[]);
     })
 
     WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
