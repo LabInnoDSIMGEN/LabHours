@@ -485,6 +485,11 @@
                          "value":"onaction"
                         }, 
                         {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyez sur ESPACE pour d\u00e9marrer une r\u00e9union"
+                        }, 
+                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -575,7 +580,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"MeetingRoom1"
+                         "value":"MeetingRoom"
                         }, 
                         {
                          "name":"jitsiTrigger",
