@@ -22,15 +22,15 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('indicationBoardZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardZonePopup","Zone WorkShop A",[]);
+        currentPopup = WA.ui.openPopup("boardZonePopup","Zone Zone de discussion coaching design",[]);
     })
 
     WA.room.onEnterLayer('indicationLoungeZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardLoungeZone","Zone Echange Relax",[]);
+        currentPopup = WA.ui.openPopup("boardLoungeZone","Zone de discussion innovation Lab",[]);
     })
 
     WA.room.onEnterLayer('indicationChillZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardChillZone","Zone de debriefing",[]);
+        currentPopup = WA.ui.openPopup("boardChillZone","Zone de discussion Evènements du Lab",[]);
     })
 
     WA.room.onEnterLayer('indicationSilentZone').subscribe(() => {
@@ -38,11 +38,11 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('indicationOfficeZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardOfficeZone","Zone WorkShop B",[]);
+        currentPopup = WA.ui.openPopup("boardOfficeZone","Zone de discussion Explorations / Expérimentation",[]);
     })
 
     WA.room.onEnterLayer('indicationMeetingRoom').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardMeetingRoom","Salle d'atelier",[]);
+        currentPopup = WA.ui.openPopup("boardMeetingRoom","Salle d'ateliers",[]);
     })
 
     WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
