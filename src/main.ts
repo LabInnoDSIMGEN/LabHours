@@ -45,6 +45,10 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("boardMeetingRoom","Salle d'ateliers",[]);
     })
 
+    WA.room.onEnterLayer('indicationLibraryResources').subscribe(() => {
+        currentPopup = WA.ui.openPopup("boardLibraryResources","Boîte à ressources du Lab",[]);
+    })
+
     WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
     WA.room.onLeaveLayer('welcomeZone').subscribe(closePopUp)
     WA.room.onLeaveLayer('indicationBoardZone').subscribe(closePopUp)
@@ -53,6 +57,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('indicationSilentZone').subscribe(closePopUp)
     WA.room.onLeaveLayer('indicationOfficeZone').subscribe(closePopUp)
     WA.room.onLeaveLayer('indicationMeetingRoom').subscribe(closePopUp)
+    WA.room.onLeaveLayer('indicationLibraryResources').subscribe(closePopUp)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
