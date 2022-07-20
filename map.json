@@ -51,7 +51,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur ESPACE pourn acceder \u00e0 la bo\u00eete aux ressources du Lab"
+                 "value":"Appuyez sur ESPACE pour acceder \u00e0 la bo\u00eete aux ressources du Lab"
                 }],
          "type":"tilelayer",
          "visible":true,
