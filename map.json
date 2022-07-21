@@ -84,7 +84,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Aucune ressource disponible pour le moment"
+                 "value":"Appuyez sur ESPACE pour voir du nouveau contenu "
                 }],
          "type":"tilelayer",
          "visible":true,
