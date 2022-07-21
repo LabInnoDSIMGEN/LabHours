@@ -199,7 +199,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/web.microsoftstream.com\/?retry=0"
+                 "value":"https:\/\/web.microsoftstream.com\/embed\/video\/dbf3b85c-42ac-4618-b3d9-aacee1bad5c9?autoplay=false&showinfo=true"
                 }, 
                 {
                  "name":"openWebsitePolicy",
