@@ -100,9 +100,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/static.zdassets.com\/web_widget\/latest\/web-widget-framework-e651106d52c621064518.js"
+                 "value":"https:\/\/klaxoon.com"
                 }, 
                 {
                  "name":"openWebsitePolicy",
@@ -197,9 +197,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/web.microsoftstream.com\/embed\/video\/dbf3b85c-42ac-4618-b3d9-aacee1bad5c9?autoplay=false&showinfo=true"
+                 "value":"https:\/\/web.microsoftstream.com\/channel\/1c89a927-5cd4-4dd0-982f-726b00bd1d87"
                 }, 
                 {
                  "name":"openWebsitePolicy",
