@@ -26,7 +26,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('indicationLoungeZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardLoungeZone","Zone de discussion innovation Lab",[]);
+        currentPopup = WA.ui.openPopup("boardLoungeZone","Zone de discussion Lab Innovation",[]);
     })
 
     WA.room.onEnterLayer('indicationChillZone').subscribe(() => {
