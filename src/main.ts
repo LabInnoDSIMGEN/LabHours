@@ -34,7 +34,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('indicationSilentZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("boardSilentZone","Zone de tranquillité ou personne ne peut vous parler ici",[]);
+        currentPopup = WA.ui.openPopup("boardSilentZone","Zone de déconnexion",[]);
     })
 
     WA.room.onEnterLayer('indicationOfficeZone').subscribe(() => {
