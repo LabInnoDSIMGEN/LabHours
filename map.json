@@ -189,7 +189,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ"
+                 "value":"https:\/\/web.microsoftstream.com\/embed\/video\/8213e166-03ba-423d-9cd4-63d82b4b18a3?autoplay=false&showinfo=true\" allowfullscreen style=\"border:none;"
                 }, 
                 {
                  "name":"openWebsitePolicy",
