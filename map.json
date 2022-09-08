@@ -252,7 +252,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/en.wikipedia.org\/wiki\/Main_Page"
+                 "value":"https:\/\/www.youtube.com\/embed\/dVCHcU--9aI"
                 }, 
                 {
                  "name":"openWebsitePolicy",
@@ -267,7 +267,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Vid\u00e9o de pr\u00e9sentation de Cyril et de Dominique \u00e0 venir ... "
+                 "value":"Appyez sur ESPACE pour voir la \"Pr\u00e9sentation du Lab Innovation\""
                 }],
          "type":"tilelayer",
          "visible":true,
