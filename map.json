@@ -577,7 +577,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur ESPACE pour acceder au contenu du stream"
+                 "value":"Appuyez sur ESPACE pour revoir le contenu des TTS"
                 }],
          "type":"tilelayer",
          "visible":true,
