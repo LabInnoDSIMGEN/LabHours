@@ -577,7 +577,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur ESPACE pour revoir le replay des TTS"
+                 "value":"Appuyez sur ESPACE pour revoir les replays des TTS"
                 }],
          "type":"tilelayer",
          "visible":true,
