@@ -18,7 +18,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('welcomeZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("welcomePopup","Bienvenue dans le Lab Inno",[]);
+        currentPopup = WA.ui.openPopup("welcomePopup","Bienvenue au LAB Hours du LAB Inno",[]);
     })
 
     WA.room.onEnterLayer('indicationBoardZone').subscribe(() => {
